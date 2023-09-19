@@ -9,6 +9,7 @@ public class Main {
 for(int i = 0; i < 5; i++) {
 Student henke = new Student("Benny", 25 + i);
     System.out.println(henke.age);
+    System.out.println(henke.doubleMyAge(henke.age));
 }
 
 

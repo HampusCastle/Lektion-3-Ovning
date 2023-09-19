@@ -5,11 +5,18 @@ public class Student {
     String name;
     public int age;
 
+
     public Student(String name, int age) {
         int current_year = 2023;
         this.name = name;
         this.age = age;
     }
+
+    public int doubleMyAge(int age) {
+        int doubleAge = age * 2;
+        return doubleAge;
+    }
+}
 
 
 //    public int getAge() {
@@ -27,6 +34,6 @@ public class Student {
 //    public void setName(String name){
 //        this.name = name;
 //    }
-}
+
 
 
