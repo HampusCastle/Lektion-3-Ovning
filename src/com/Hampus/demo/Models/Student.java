@@ -5,6 +5,9 @@ public class Student {
     String name;
     public int age;
 
+    public String toString(){
+        return "Name: "+ name + "\n" + "Age: " + age;
+    }
 
     public Student(String name, int age) {
         int current_year = 2023;
